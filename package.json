@@ -1,0 +1,25 @@
+{
+  "name": "ng2Boilerplate",
+  "version": "0.0.1",
+  "author": {
+    "name": "Brad Proctor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cineris/ng2Boilerplate.git"
+  },
+  "description": "Simple boilerplate to get you up and hacking with Angular 2 in no time!",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-tslint": "^2.5.0",
+    "grunt-typescript": "^0.7.0",
+    "tslint": "^2.5.0-beta"
+  }
+}

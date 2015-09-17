@@ -1,0 +1,33 @@
+<!-- index.html -->
+<html>
+<head>
+    <title>ng2Do</title>
+
+    <script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
+    <script src="https://jspm.io/system@0.16.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-alpha.28/angular2.dev.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/styles/global.css"/>
+</head>
+<body>
+
+<div class="container">
+    <my-app></my-app>
+</div>
+
+<script>
+    // This should all go away closer to/after release
+    System.paths = {
+        'angular2/*': '/typings/angular2/*.js',
+        'services/*': '/services/*.js',
+        'rx': '/typings/rx/rx.d.ts',
+        'app': '/app.js'
+    };
+
+    System.import("app");
+</script>
+
+</body>
+</html>
